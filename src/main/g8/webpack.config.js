@@ -17,6 +17,7 @@ module.exports = {
         ],
         loaders: [
             { test: /\.css$/, loader: "css?minimize"},
+            { test: /\.styl$/, loader: 'style-loader!css-loader?minimize!stylus-loader' },
             { test: /\.jade$/, loader: 'jade' },
             { test: /\.ts$/, loader: "awesome-typescript-loader?emitRequireType=false&library=es6" }
         ]

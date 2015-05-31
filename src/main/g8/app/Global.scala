@@ -4,7 +4,7 @@ import com.mohiva.play.xmlcompressor.XMLCompressorFilter
 import play.api.Play
 import play.api.Play.current
 import play.api.mvc.WithFilters
-import play.filters.headers.{SecurityHeadersFilter, DefaultSecurityHeadersConfig}
+import play.filters.headers.{ SecurityHeadersFilter, DefaultSecurityHeadersConfig }
 
 object Global extends WithFilters(
   new HTMLCompressorFilter({
