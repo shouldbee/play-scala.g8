@@ -1,0 +1,13 @@
+logs
+target
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/RUNNING_PID
+
+# Client side
+/node_modules
+/types
+/public/javascripts/bundle.*
