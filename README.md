@@ -1,5 +1,6 @@
 # Play Framework 2.3.9 Project Template
 
+A Scala project template bundled with Play 2.x + TypeScript + Webpack + Scalariform + Scalastyle + Configured security options by default.
 
 ## Contents
 
@@ -53,7 +54,7 @@ Others:
 
 ## Quick Start
 
-Generate a new project.
+Generate a new project using [giter8].
 
 ```
 g8 shouldbee/play-scala
@@ -87,3 +88,5 @@ Open http://localhost:9000/ with your browser and enjoy!
 [Scalariform]: https://github.com/mdr/scalariform
 [Scalastyle]: http://www.scalastyle.org/
 [Scapegoat]: https://github.com/sksamuel/scalac-scapegoat-plugin
+
+[giter8]: https://github.com/n8han/giter8/
