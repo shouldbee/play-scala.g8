@@ -9,5 +9,5 @@ target
 
 # Client side
 /node_modules
-/types
+/typings
 /public/javascripts/bundle.*

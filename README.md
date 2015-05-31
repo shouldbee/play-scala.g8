@@ -77,7 +77,7 @@ Open http://localhost:9000/ with your browser and enjoy!
 
 ## Customize
 
-### /node_modules and /types are git-ignored by default
+### /node_modules and /typings are git-ignored by default
 
 If you want to check in node_modules and types, you can comment out [these lines of .gitignore](https://github.com/shouldbee/play-scala.g8/blob/master/src/main/g8/.gitignore#L11-L12).
 
