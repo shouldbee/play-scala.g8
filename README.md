@@ -53,17 +53,27 @@ Others:
 
 ## Quick Start
 
+Generate a new project.
+
 ```
 g8 shouldbee/play-scala
 cd yourapp
+```
 
-# install node modules
+Install node modules.
+
+```
 make bootstrap
+```
 
-# start play Server
-chmod +x ./activator
+Then start Play server.
+
+```
 ./activator run
 ```
+
+Open http://localhost:9000/ with your browser and enjoy!
+
 
 [Webpack]: http://webpack.github.io/
 [TypeScript]: http://www.typescriptlang.org/
